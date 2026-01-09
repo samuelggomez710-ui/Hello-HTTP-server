@@ -11,7 +11,7 @@ const server = http.createServer((req, res) => {
     // Sends back statuscode 200 which means ok
     res.statusCode = 200;
     // Set the content type to plain text
-    res.setHeader('Content-Type', 'text/plain');\
+    res.setHeader('Content-Type', 'text/plain');
     // Send back the response body "Hello World" and end the response
     res.end('Hello World');
 });
